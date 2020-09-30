@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>--host peapimbillingpocdev.azure-api.net --exclusions PE LA DEV SIT TEMP UAT --subscription 757a1215-f691-491f-9a34-c6ec956f36c9 --client-domain wessexwater.co.uk --client-id ad04374f-ee67-47d0-b44b-bcde96a8e94d --client-secret 2-PmDxSTzEHzb3QUpbv04~LAul-GFIB2.e --api-title Billing Api --api-version 1.0.1 --output apim-billing-api.json --filter true --name-starts-with PE</StartArguments>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+</Project>
