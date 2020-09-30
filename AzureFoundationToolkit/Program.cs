@@ -9,7 +9,7 @@ namespace AzureFoundationToolkit
         static void Main(string[] args)
         {
             Parser.Default.ParseArguments<GenerateApiOptions>(args)
-              .WithParsed(APIMTool.RunOptions)
+              .WithParsed(ApimGenerate.RunOptions)
               .WithNotParsed(HandleParseError);
         }
         static void HandleParseError(IEnumerable<Error> errs)

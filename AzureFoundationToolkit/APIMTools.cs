@@ -7,18 +7,18 @@ using Newtonsoft.Json;
 
 namespace AzureFoundationToolkit
 {
-    public class APIMTool
+    public class ApimGenerate
     {
         private readonly GenerateApiOptions opt;
 
-        public APIMTool(GenerateApiOptions _opt)
+        public ApimGenerate(GenerateApiOptions _opt)
         {
             opt = _opt;
         }
 
         internal static void RunOptions(GenerateApiOptions obj)
         {
-            var tool = new APIMTool(obj);
+            var tool = new ApimGenerate(obj);
             tool.Execute();
         }
 

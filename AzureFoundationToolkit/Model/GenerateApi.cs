@@ -3,7 +3,7 @@ using CommandLine;
 
 namespace AzureFoundationToolkit
 {
-    [Verb("GenerateApi", HelpText = "Generate swagger for logic apps.")]
+    [Verb("apim-generate", HelpText = "Generate swagger for logic apps.")]
     public class GenerateApiOptions
     {
         [Option('h', "host", Required = true, HelpText = "Host name for api management")]
